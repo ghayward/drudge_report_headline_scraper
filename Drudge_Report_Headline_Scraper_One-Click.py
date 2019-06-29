@@ -10,7 +10,12 @@
 # Best,
 # <br>George John Jordan Thomas Aquinas Hayward, Optimist
 
-# In[2]:
+# ## Example from June 29, 2019 at 1:20am:
+# <img src="https://raw.githubusercontent.com/ghayward/drudge_report_headline_scraper/master/Drudge_Report_Headlines_06-29-19.png" width = 700 height = 325>
+# 
+# 
+
+# In[4]:
 
 
 from bs4 import BeautifulSoup
@@ -53,3 +58,5 @@ Drudge_Report.to_excel("drudge_report_"+datetime_now_string+".xlsx",index=False)
 #here's the dataframe
 Drudge_Report
 
+
+# ### Thank you for stopping by!
